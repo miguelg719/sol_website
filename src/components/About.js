@@ -4,7 +4,7 @@ const About = () => (
   <main className="flex justify-center items-center h-screen">
     <div className="flex max-w-4xl">
       <div className="w-1/2 pr-8">
-        <img src="/images/paintings/fruits.png" alt="Colorful fruit arrangement" className="w-full h-auto" />
+        <img src="images/paintings/fruits.png" alt="Colorful fruit arrangement" className="w-full h-auto" />
       </div>
       <div className="w-1/2 flex items-center">
         <p className="text-right text-gray-700 leading-relaxed">

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sol_website/static/css/main.aad76f3d.css",
-    "main.js": "/sol_website/static/js/main.7fd28471.js",
+    "main.js": "/sol_website/static/js/main.12974ccf.js",
     "static/js/453.2f3cf013.chunk.js": "/sol_website/static/js/453.2f3cf013.chunk.js",
     "index.html": "/sol_website/index.html",
     "main.aad76f3d.css.map": "/sol_website/static/css/main.aad76f3d.css.map",
-    "main.7fd28471.js.map": "/sol_website/static/js/main.7fd28471.js.map",
+    "main.12974ccf.js.map": "/sol_website/static/js/main.12974ccf.js.map",
     "453.2f3cf013.chunk.js.map": "/sol_website/static/js/453.2f3cf013.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aad76f3d.css",
-    "static/js/main.7fd28471.js"
+    "static/js/main.12974ccf.js"
   ]
 }

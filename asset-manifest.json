@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aad76f3d.css",
-    "main.js": "/static/js/main.51c83ab7.js",
-    "static/js/453.2f3cf013.chunk.js": "/static/js/453.2f3cf013.chunk.js",
-    "index.html": "/index.html",
-    "main.aad76f3d.css.map": "/static/css/main.aad76f3d.css.map",
-    "main.51c83ab7.js.map": "/static/js/main.51c83ab7.js.map",
-    "453.2f3cf013.chunk.js.map": "/static/js/453.2f3cf013.chunk.js.map"
+    "main.css": "/sol_website/static/css/main.aad76f3d.css",
+    "main.js": "/sol_website/static/js/main.7fd28471.js",
+    "static/js/453.2f3cf013.chunk.js": "/sol_website/static/js/453.2f3cf013.chunk.js",
+    "index.html": "/sol_website/index.html",
+    "main.aad76f3d.css.map": "/sol_website/static/css/main.aad76f3d.css.map",
+    "main.7fd28471.js.map": "/sol_website/static/js/main.7fd28471.js.map",
+    "453.2f3cf013.chunk.js.map": "/sol_website/static/js/453.2f3cf013.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aad76f3d.css",
-    "static/js/main.51c83ab7.js"
+    "static/js/main.7fd28471.js"
   ]
 }

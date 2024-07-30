@@ -25,7 +25,7 @@ const ImageGrid = ({ images }) => {
 
       {selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-25 flex justify-center items-center">
-          <div className="relative bg-white mt-20 p-10 rounded-lg flex" style={{maxHeight: "83vh"}}>
+          <div className="relative bg-white mt- p-10 rounded-lg flex" style={{maxHeight: "83vh"}}>
             <img src={selectedImage.src} alt={selectedImage.alt} className="max-w-lg max-h-screen object-contain" />
             <div className="ml-2 pr-10 flex flex-col justify-center pb-40">
               <h2 className="text-2xl mb-20">{selectedImage.title}</h2>

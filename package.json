@@ -1,5 +1,5 @@
 {
-  "homepage": "https://miguelg719.github.io/sol_website/",
+  "homepage": "https://miguelg719.github.io/sol_website",
   "name": "sol_website",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +49,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
+    "url-loader": "^4.1.1"
   }
 }

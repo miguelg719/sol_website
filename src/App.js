@@ -16,7 +16,7 @@ function App() {
         <div className="min-h-screen bg-white">
           <Header />
           <Routes>
-            <Route exact path="/" element={<About />} />
+            <Route exact path="/sol_website" element={<About />} />
             <Route path="/about" element={<About />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />

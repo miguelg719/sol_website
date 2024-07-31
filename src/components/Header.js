@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 flex justify-between items-center py-6 px-12 bg-white z-50">
+    <header className="sticky top-0 flex justify-between items-center py-6 px-12 bg-white z-10">
       <h1 className="text-3xl font-goudy whitespace-nowrap" style={{ color: '#fc8ece', letterSpacing: '0.125em', wordSpacing: 5 }}>SOLMARÍ GARCÍA</h1>
       <nav className="hidden md:flex">
         <ul className="flex space-x-4">

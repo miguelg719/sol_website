@@ -29,7 +29,7 @@ const ImageGrid = ({ images }) => {
           >
             {!loadedImages[index] && (
               <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-                <div className="w-10 h-10 border-4 border-gray-200 border-t-4 border-t-blue-500 rounded-full animate-pulse"></div>
+                <div className="w-10 h-10 border-4 border-gray-200 border-t-4 border-t-blue-500 rounded-full animate-spin"></div>
               </div>
             )}
             <img
@@ -45,7 +45,7 @@ const ImageGrid = ({ images }) => {
       </div>
 
       {selectedImage && (
-        <div className="fixed inset-0 bg-black bg-opacity-25 flex justify-center items-center">
+        <div className="fixed top-0 inset-0 bg-black bg-opacity-25 flex justify-center items-center z-20">
           <div className="relative bg-white p-10 rounded-lg flex" style={{ maxHeight: '83vh' }}>
             <img src={selectedImage.src} alt={selectedImage.alt} className="max-w-lg max-h-screen object-contain" />
             <div className="ml-2 pr-10 flex flex-col justify-center pb-40">

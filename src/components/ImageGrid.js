@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const ImageGrid = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [loadedImages, setLoadedImages] = useState({});
+  const overlayRef = useRef(null);
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -17,6 +18,22 @@ const ImageGrid = ({ images }) => {
   const handleImageLoad = (index) => {
     setLoadedImages((prev) => ({ ...prev, [index]: true }));
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (overlayRef.current && event.target === overlayRef.current) {
+        closeOverlay();
+      }
+    };
+  
+    if (selectedImage) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+  
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [selectedImage]);
 
   return (
     <div>
@@ -45,12 +62,13 @@ const ImageGrid = ({ images }) => {
       </div>
 
       {selectedImage && (
-        <div className="fixed top-0 inset-0 bg-black bg-opacity-25 flex justify-center items-center z-20">
-          <div className="relative bg-white p-10 rounded-lg flex" style={{ maxHeight: '83vh' }}>
-            <img src={selectedImage.src} alt={selectedImage.alt} className="max-w-lg max-h-screen object-contain" />
-            <div className="ml-2 pr-10 flex flex-col justify-center pb-40">
+        <div ref={overlayRef} className="fixed top-0 inset-0 bg-gray-950 bg-opacity-25 flex justify-center pt-20 z-20">
+          <div className="relative bg-white pr-10 rounded-lg flex" style={{ maxHeight: '83vh' }}>
+            <img src={selectedImage.src} alt={selectedImage.alt} className="max-h-screen object-contain object-left rounded-l-lg" />
+            <div className="px-10 flex flex-col justify-center pb-40 text-left">
               <h2 className="text-2xl mb-20">{selectedImage.title}</h2>
               <p>{selectedImage.description}</p>
+              <p>Dimensions: {selectedImage.dimensions}</p>
             </div>
             <button onClick={closeOverlay} className="absolute top-2 right-2 text-gray-400 hover:text-gray-500">
               <FontAwesomeIcon icon={faTimes} size="2x" />

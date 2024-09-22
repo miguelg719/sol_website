@@ -24,7 +24,7 @@ const Contact = () => {
 
     const emailParams = {
       from_name: formData.email,
-      to_name: 'sol.garciafl25@gmail.com',
+      to_name: 'solmarigarcia.contact@gmail.com',
       email: formData.email,
       firstName: formData.firstName,
       lastName: formData.lastName,

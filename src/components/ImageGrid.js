@@ -66,9 +66,10 @@ const ImageGrid = ({ images }) => {
           <div className="relative bg-white pr-10 rounded-lg flex" style={{ maxHeight: '83vh' }}>
             <img src={selectedImage.src} alt={selectedImage.alt} className="max-h-screen object-contain object-left rounded-l-lg" />
             <div className="px-10 flex flex-col justify-center pb-40 text-left">
-              <h2 className="text-2xl mb-20">{selectedImage.title}</h2>
+              <h2 className="text-2xl mb-20 font-medium">{selectedImage.title}</h2>
               <p>{selectedImage.description}</p>
-              <p>Dimensions: {selectedImage.dimensions}</p>
+              <br></br>
+              {selectedImage.dimensions && <p>Dimensions: {selectedImage.dimensions}</p>}
             </div>
             <button onClick={closeOverlay} className="absolute top-2 right-2 text-gray-400 hover:text-gray-500">
               <FontAwesomeIcon icon={faTimes} size="2x" />

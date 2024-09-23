@@ -20,8 +20,8 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 flex justify-between items-center py-6 px-12 bg-white z-10">
-      <h1 className="text-3xl font-goudy whitespace-nowrap" style={{ color: '#fc8ece', letterSpacing: '0.125em', wordSpacing: 5 }}>SOLMARÍ GARCÍA</h1>
+    <header className="sticky top-0 flex justify-between items-center py-6 px-10 md:px-12 bg-white z-10">
+      <h1 className="text-2xl md:text-3xl font-goudy whitespace-nowrap" style={{ color: '#fc8ece', letterSpacing: '0.125em', wordSpacing: 5 }}>SOLMARÍ GARCÍA</h1>
       <nav className="hidden md:flex">
         <ul className="flex space-x-4">
           <li><Link to="/about" className="text-gray-600 hover:text-gray-800">about</Link></li>
@@ -45,8 +45,8 @@ const Header = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="absolute top-full right-0 w-1/4 bg-white shadow-lg z-50 md:hidden">
-          <ul className="space-y-4 text-right p-4">
+        <div className="absolute top-full right-0 w-2/5 bg-white shadow-lg z-50 md:hidden">
+          <ul className="space-y-4 text-right p-4 pr-6">
             <li><Link to="/about" className="text-gray-600 text-2xl hover:text-gray-800 block" onClick={toggleMenu}>about</Link></li>
             <li className="relative">
               <button onClick={toggleSubMenu} className="text-gray-600 text-2xl focus:outline-none block w-full text-right">

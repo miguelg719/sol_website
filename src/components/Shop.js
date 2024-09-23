@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Shop = () => (
-  <main className="flex flex-col pt-20 items-center h-screen">
+  <main className="flex flex-col pt-20 items-center h-screen px-8 md:px-0">
     <h2 className="text-3xl mb-6">Coming Soon</h2>
     <h3 className="text-xl mb-10">Sign up for updates</h3>
     <form className="w-full max-w-md bg-white shadow-lg rounded-lg overflow-hidden">

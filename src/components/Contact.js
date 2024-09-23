@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <main className="flex flex-col pt-20 items-center min-h-screen">
+    <main className="flex flex-col pt-20 items-center min-h-screen px-8 md:px-0">
       <h2 className="text-3xl mb-6">Send me a message</h2>
       <h3 className="text-xl mb-10">Inquiries, collabs, advice... It goes directly to my inbox!</h3>
       <form className="w-full max-w-md bg-white shadow-lg rounded-lg overflow-hidden" onSubmit={handleSubmit}>

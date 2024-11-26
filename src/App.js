@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Paintings from './components/Paintings';
 import Printmaking from './components/Printmaking';
 import Collages from './components/Collages';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (

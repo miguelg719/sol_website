@@ -5,7 +5,7 @@ const About = () => (
     <div className="max-w-4xl w-full">
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
-          <img src="/sol_website/images/paintings/fruits.png" alt="Colorful fruit arrangement" className="w-full h-auto" />
+          <img src="./images/paintings/fruits.png" alt="Colorful fruit arrangement" className="w-full h-auto" />
         </div>
         <div className="w-full md:w-1/2 flex items-center">
           <p className="text-gray-700 leading-relaxed text-sm px-10 md:text-right md:px-0">

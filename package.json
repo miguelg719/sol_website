@@ -1,7 +1,7 @@
 {
-  "homepage": "https://miguelg719.github.io/sol_website/",
+  "homepage": "https:/www.solmarigarcia.com",
   "name": "sol_website",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",

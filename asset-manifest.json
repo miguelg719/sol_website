@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/www.solmarigarcia.com/static/css/main.2deb31aa.css",
-    "main.js": "/www.solmarigarcia.com/static/js/main.b05fbc8d.js",
-    "static/js/453.2f3cf013.chunk.js": "/www.solmarigarcia.com/static/js/453.2f3cf013.chunk.js",
-    "index.html": "/www.solmarigarcia.com/index.html",
-    "main.2deb31aa.css.map": "/www.solmarigarcia.com/static/css/main.2deb31aa.css.map",
-    "main.b05fbc8d.js.map": "/www.solmarigarcia.com/static/js/main.b05fbc8d.js.map",
-    "453.2f3cf013.chunk.js.map": "/www.solmarigarcia.com/static/js/453.2f3cf013.chunk.js.map"
+    "main.css": "/static/css/main.2deb31aa.css",
+    "main.js": "/static/js/main.48449cbf.js",
+    "static/js/453.2f3cf013.chunk.js": "/static/js/453.2f3cf013.chunk.js",
+    "index.html": "/index.html",
+    "main.2deb31aa.css.map": "/static/css/main.2deb31aa.css.map",
+    "main.48449cbf.js.map": "/static/js/main.48449cbf.js.map",
+    "453.2f3cf013.chunk.js.map": "/static/js/453.2f3cf013.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2deb31aa.css",
-    "static/js/main.b05fbc8d.js"
+    "static/js/main.48449cbf.js"
   ]
 }
